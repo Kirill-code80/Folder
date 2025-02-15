@@ -1,0 +1,9 @@
+s=str(input())
+p=s.count("s")
+r=s.count("g")
+o=p+r
+e=len(s)
+print(e)
+y=o/e
+y=y*100
+print(y)

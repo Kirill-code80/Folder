@@ -1,0 +1,10 @@
+def countFood():
+  a=int(input())
+  b=int(input())
+  print("Result: ",a+b)
+print("How much bananas and pineapples?")
+countFood()
+print("How much apples and kiwi?")
+countFood()
+print("How much bread and chicken?")
+countFood()

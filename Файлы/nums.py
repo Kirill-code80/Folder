@@ -1,0 +1,10 @@
+s1=open('nums.txt')
+e=s1.read()
+print(e)
+e=e.split()
+for i in range(len(e)):
+    e[i]=int(e[i])
+print(e)
+r=sum(e)
+print(r)
+s1.close()
